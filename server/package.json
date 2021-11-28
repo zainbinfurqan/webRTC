@@ -1,0 +1,17 @@
+{
+  "name": "webrtc-node-server",
+  "version": "1.0.0",
+  "description": "working on webrtc node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "nodemon": "node index.js"
+  },
+  "author": "Zain Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  }
+}

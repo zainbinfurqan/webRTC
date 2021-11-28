@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+</head>
+<!-- <script src="/socket.io/socket.io.js"></script> -->
+<script src="https://cdn.socket.io/4.4.0/socket.io.min.js"
+  integrity="sha384-1fOn6VtTq3PWwfsOrk45LnYcGosJwzMHv+Xh/Jx5303FVOXzEnw0EpLv30mtjmlj" crossorigin="anonymous"></script>
+
+<body>
+  <div>
+    <div class="video-container">
+      <div>
+        <select id="cameraSelect"></select>
+      </div>
+      <div>
+        <button id="takeProfilePic">Create proile pic</button>
+      </div>
+      <div>
+        <video id="localStreaming"></video>
+      </div>
+      <div>
+        <canvas id="profilePicCanvas"></canvas>
+        <div>
+          <img id="profilePicOutput" />
+        </div>
+      </div>
+      <div id="chatArea">
+
+      </div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="main.js"></script>
+
+</html>
